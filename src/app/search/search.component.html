@@ -1,0 +1,11 @@
+<div class=card>
+    <h5 class="card-header">Wyszukiwanie po gatunkach:</h5>
+        <div class="card-body">
+
+        <input type="text" #breedQuery>
+        <button (click)="searchBreeds(breedQuery)">Szukaj</button>
+        <div>
+            {{ breed | json }}
+        </div>
+    </div>
+</div>

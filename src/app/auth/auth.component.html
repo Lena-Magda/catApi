@@ -1,0 +1,11 @@
+<div class=card>
+    <h5 class="card-header">Autoryzacja</h5>
+        <div class="card-body">
+            <h6 class="card-title">Poprawny klucz: 6378fbc7-b2af-4e7e-9d94-e448e1a8514c</h6>
+            <input type="text" #newKey>
+            <button (click)="checkKey(newKey)">Autoryzuj</button>
+            <button (click)="clearStorage()">Czyść</button>
+            <div id="err-message"></div>
+        </div>
+</div>
+
